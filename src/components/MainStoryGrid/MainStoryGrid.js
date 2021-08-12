@@ -56,7 +56,7 @@ const Wrapper = styled.div`
 
   @media ${QUERIES.tabletAndUp} {
     grid-template-columns: 1fr 252px;
-    gap: 32px;
+    gap: 48px 32px;
     grid-template-areas:
       "main-story secondary-stories"
       "advertisement advertisement"
@@ -65,6 +65,7 @@ const Wrapper = styled.div`
 
   @media ${QUERIES.laptopAndUp} {
     grid-template-columns: 1fr 386px 273px;
+    gap: 32px;
     grid-template-areas:
       "main-story secondary-stories opinion-stories"
       "main-story advertisement advertisement";
